@@ -378,7 +378,7 @@ app.post("/webhook", async (req, res) => {
 });
 
 // Test Google Sheets connection on server start
-testGoogleSheetConnection(); // Uncomment after confirming GOOGLE_SHEET_URL
+// testGoogleSheetConnection(); // Uncomment after confirming GOOGLE_SHEET_URL
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT} at`, new Date().toISOString());
