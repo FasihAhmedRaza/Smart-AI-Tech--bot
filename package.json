@@ -1,0 +1,22 @@
+{
+  "name": "smart-ai-tech-dialogflow",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^7.0.1",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.5.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.10"
+  }
+}
